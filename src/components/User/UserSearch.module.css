@@ -1,0 +1,40 @@
+.search-form {
+    width:400px;
+    max-width: 100%;
+    background: rgba(0,0,0,.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.notValid  {
+    box-shadow: 0 0 30px rgb(240, 5, 5);
+}
+
+input {
+    padding:10px 5px;
+    width: 90%;
+    font-size:1.25rem;
+}
+
+label {
+    font-size:1.25rem;
+}
+
+button {
+    border: none;
+    padding:10px 30px;
+    background: crimson;
+    border-radius: 10px;;
+    color:#fff;
+    font-size:inherit;
+    cursor: pointer;
+
+}

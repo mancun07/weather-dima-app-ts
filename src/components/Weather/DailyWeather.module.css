@@ -1,0 +1,17 @@
+.daily-weather {
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    font-size: 1.25rem;
+}
+
+.daily-weather__item {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    gap: 5px;
+    align-items: center;
+}
+
+.daily-weather__item span {
+    text-align: center;
+}
